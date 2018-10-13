@@ -1,0 +1,21 @@
+#footer{
+	background-color: $secondary;
+	text-align: center;
+	
+	li{
+		list-style-type:none;
+		display: inline-block;
+		a{
+			font-family: 'Open Sans', sans-serif;
+			padding: 15px;
+			//font-style: italc;
+			color: #333;
+			font-weight: bold;
+			text-decoration: none;
+			&:hover{
+				color: $primary;
+			}
+		}
+		
+	}
+}

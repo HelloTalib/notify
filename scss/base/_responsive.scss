@@ -1,0 +1,64 @@
+@media (max-width: 575.98px) {
+
+	//<<<<<<<<<<<<<<HERO SECTION>>>>>>>>>>>>>>>>>>
+	#hero{
+		text-align: center;
+		height: 75vh !important;
+		background-attachment: fixed;
+		background-position: left !important;
+		.hero-title{
+			font-size: 55px !important;
+		}
+
+		.hero-des{
+			font-size: 18px !important;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		.hero-social-icon{
+			a{
+				padding: 0 !important;
+			}
+		}
+	}
+
+	//<<<<<<<<<<SERVICES SECTION>>>>>>>>>>>>>>>>>>>
+
+	#services{
+		.services-title{
+			margin: 20px 0;
+		}
+		.services-des{
+			margin-bottom: 20px;
+		}
+		.services-icon{
+			i{
+				font-size: 40px;
+				text-align: center;
+				height: 70px;
+				width: 70px;
+				line-height: 70px;
+				border-radius: 50%;
+			}
+		}
+	}
+
+	//<<<<<<<<<<ABOUT SECTION>>>>>>>>>>>>>>>>>>>
+	#about{
+		text-align: center;
+		.subscribe-form{
+			input[type="email"]{
+				width: 220px !important;
+				margin-bottom: 20px;
+			}
+		}
+	}
+
+
+
+	//<<<<<<<<<<FEATURES SECTION>>>>>>>>>>>>>>>>>>>
+	#features{
+		//      thaaaaat! parlam na responsive korte 
+
+	}
+}

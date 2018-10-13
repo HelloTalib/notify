@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	&:focus{
+		outline:none;
+	}
+}
+body{
+  overflow-x: hidden;
+  font-size: 16px;
+  line-height: 26px;
+}
+h2{
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}

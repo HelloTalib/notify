@@ -1,0 +1,31 @@
+#about{
+	background-color: $secondary;
+	.about-title{
+		//margin-bottom: 20px;
+	}
+	.about-des{
+		margin:20px 0;
+	}
+	.subscribe-form{
+		input[type="email"]{
+			background-color: #fff;
+			border:none;
+			width: 300px;
+			padding: 14px 20px;
+			font-weight: 400;
+			border-radius:20px 0px 0px 20px;
+			outline:none;
+		}
+		button[type="submit"]{
+			background-color:$primary;
+			color: #fff;
+			border:none;
+			padding: 14px 40px;
+			font-weight: bold;
+			margin-left: -5px;
+			border-radius: 0px 20px 20px 0px ;
+			outline:none;
+			cursor: pointer;
+		}
+	}
+}
